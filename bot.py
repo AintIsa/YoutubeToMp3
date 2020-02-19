@@ -7,7 +7,6 @@ bot = telebot.TeleBot("853823128:AAGPr4Voyzv8djrIptCBB9RMysovznjAijI")
 
 YOUTUBE_REGEX = '^((http(s)?:\/\/)?)(www\.)?(m\.)?((youtube\.com\/)|(youtu.be\/))[\S]+'
 #  Download data and config
-# {}.format(info_dict['title'])
 file_path = os.getcwd()
 dl_opts = {
     'format': 'bestaudio/best',
